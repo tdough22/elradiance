@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   margin: 0;
   font-family: 'Georgia', serif;
@@ -6,51 +7,83 @@ body {
   text-align: center;
 }
 
+/* Header */
 header {
   padding: 3rem 1rem;
   background-color: #111;
-  border-bottom: 1px solid #FFD700;
+  border-bottom: 1px solid #D4AF37;
 }
 
 h1 {
   font-size: 3rem;
-  color: #FFD700;
+  color: #D4AF37;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .tagline {
   font-style: italic;
-  font-size: 1.2rem;
-  color: #ccc;
+  font-size: 1.3rem;
+  color: #bfbfbf;
+  margin-top: 0.5rem;
 }
 
+/* Hero Section */
 .hero {
   padding: 4rem 1rem;
+  background-color: #000;
 }
 
 .hero h2 {
   font-size: 2rem;
-  color: #FFD700;
+  color: #D4AF37;
+  margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin-bottom: 2rem;
+  color: #ddd;
 }
 
+/* Button */
 .button {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #FFD700;
+  padding: 0.75rem 1.75rem;
+  background-color: #D4AF37;
   color: #000;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-footer {
-  padding: 1rem;
-  background-color: #111;
-  color: #666;
-  font-size: 0.9rem;
+.button:hover {
+  background-color: #bfa25a;
 }
+
+/* Contact Section */
+#contact {
+  padding: 3rem 1rem;
+  background-color: #111;
+}
+
+#contact h3 {
+  color: #D4AF37;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact a {
+  color: #D4AF37;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 1re
