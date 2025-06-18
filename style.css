@@ -1,89 +1,23 @@
-/* Global Styles */
+
 body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-}
-
-/* Header */
-header {
-  padding: 3rem 1rem;
-  background-color: #111;
-  border-bottom: 1px solid #D4AF37;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #D4AF37;
-  margin: 0;
-  letter-spacing: 1px;
-}
-
-.tagline {
-  font-style: italic;
-  font-size: 1.3rem;
-  color: #bfbfbf;
-  margin-top: 0.5rem;
-}
-
-/* Hero Section */
-.hero {
-  padding: 4rem 1rem;
-  background-color: #000;
-}
-
-.hero h2 {
-  font-size: 2rem;
-  color: #D4AF37;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.15rem;
-  margin-bottom: 2rem;
+  background-color: #0e0e0e;
   color: #ddd;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
 }
-
-/* Button */
-.button {
-  display: inline-block;
-  padding: 0.75rem 1.75rem;
-  background-color: #D4AF37;
-  color: #000;
+a {
+  color: #d4af37;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
+  margin: 0 10px;
 }
-
-.button:hover {
-  background-color: #bfa25a;
+img {
+  max-width: 100%;
+  border-radius: 8px;
 }
-
-/* Contact Section */
-#contact {
-  padding: 3rem 1rem;
-  background-color: #111;
+header, footer {
+  text-align: center;
+  padding: 20px;
 }
-
-#contact h3 {
-  color: #D4AF37;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+nav {
+  margin: 10px 0;
 }
-
-#contact a {
-  color: #D4AF37;
-  text-decoration: none;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  padding: 1re
