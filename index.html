@@ -2,45 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elysian Radiance | Luxury Outdoor Fire Features</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    .hero {
+      background: url('images/Hero_bg.png') center center / cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 0 20px;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.55);
+      padding: 60px 20px;
+      width: 100%;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      color: #ddd;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+
+    .link-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #d4af37;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .link-button:hover {
+      background-color: #c59f2e;
+    }
+  </style>
 </head>
-<body>
+<body style="background-color: #0e0e0e; font-family: 'Georgia', serif; margin: 0;">
 
-  <header class="header">
-    <a href="index.html"><img src="images/logo.png" alt="Elysian Radiance Logo" class="logo"/></a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="phoenix.html">Founders Edition</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <nav style="text-align: center; padding: 20px;">
+    <a href="index.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Home</a>
+    <a href="phoenix.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Founders Edition</a>
+    <a href="about.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">About</a>
+    <a href="contact.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Contact</a>
+  </nav>
 
-  <main class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">Luxury Outdoor Fire Features</h1>
-      <p class="hero-subtitle">
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>Luxury Outdoor Fire Features</h1>
+      <p>
         Elysian Radiance creates sculptural fire elements that blend precision metalwork with timeless design. Rooted in craftsmanship and built for connection, each piece redefines what outdoor living can be.
       </p>
-      <a href="phoenix.html" class="cta-button">View Founders Edition</a>
+      <a class="link-button" href="phoenix.html">View Founders Edition</a>
     </div>
-    <img src="images/phoenix-render.png" alt="Phoenix Fire Pit" class="hero-image" style="max-width: 50%; height: auto; margin-top: 40px; border-radius: 8px;" />
-  </main>
+  </header>
 
-  <section style="padding: 60px 20px; text-align: center; max-width: 900px; margin: auto;">
-    <h2 style="color: #d4af37;">Introducing the Phoenix</h2>
-    <p style="font-size: 1.1rem; color: #aaa; margin: 20px auto; max-width: 700px;">
-      Our limited Founders Edition fire pit—crafted with powder-coated steel, a signature brass placard, and an unmatched unboxing experience—is available to only 20 discerning clients. This is more than a fire pit; it's a legacy centerpiece.
+  <section class="section">
+    <h2>Introducing Elysian Radiance</h2>
+    <p>
+      Born from legacy, forged in fire — our work honors those who came before us and the timeless art of gathering around a flame. From serene evenings on the patio to spirited celebrations, our fire features are more than function — they are centerpieces of connection, comfort, and craftsmanship.
     </p>
-    <a href="phoenix.html" class="cta-button">Discover the Phoenix</a>
   </section>
-
-  <footer class="footer">
-    <p>&copy; 2025 Elysian Radiance, LLC. All rights reserved.</p>
-  </footer>
 
 </body>
 </html>
