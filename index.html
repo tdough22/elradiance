@@ -3,48 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Elysian Radiance</title>
+  <title>Elysian Radiance | Luxury Fire Features</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
-<body style="background-color: #0e0e0e; color: #ddd; font-family: 'Georgia', serif; line-height: 1.6; margin: 0; padding: 40px 20px; max-width: 1000px; margin: auto;">
-<nav style="text-align: center; margin-bottom: 30px;">
-  <a href="index.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Home</a>
-  <a href="phoenix.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Phoenix</a>
-  <a href="contact.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">Contact</a>
-  <a href="about.html" style="color: #d4af37; margin: 0 15px; text-decoration: none;">About</a>
-</nav>
-
-<div style="background-color: #1a1a1a; padding: 20px; border: 1px solid #333; border-radius: 8px; margin-bottom: 30px;">
-  <h2 style="color: #d4af37; margin-top: 0;">🔥 Limited Founders Edition</h2>
-  <p>Claim 1 of 20 individually numbered <strong>Phoenix Fire Pits</strong> handcrafted with exclusive features and commemorative packaging.</p>
-  <a href="phoenix.html" style="color: #0e0e0e; background: #d4af37; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 10px;">Learn More</a>
-</div>
-
-
-  <header style="text-align: center; margin-bottom: 40px;">
-    <img src="images/logo.png" alt="Elysian Radiance Logo" style="width: 220px; display: block; margin: 0 auto 20px;" />
+<body>
+  <header class="site-header">
+    <img src="images/logo.png" alt="Elysian Radiance Logo" class="logo" />
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="products.html">Fire Features</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <main style="text-align: center;">
-    <h1 style="color: #d4af37; font-size: 2.5rem; margin-bottom: 20px;">Elegance Forged in Flame</h1>
-    <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto 40px;">
-      Welcome to Elysian Radiance — a brand born from heritage, elevated by design. We craft luxury fire features that do more than heat your space. They bring people together.
-    </p>
+  <main class="home">
+    <section class="hero">
+      <h1>Crafting Luxury Fire Features for a Life Well-Lived Outdoors</h1>
+      <p class="tagline">Hand-built. Timeless. American-made.</p>
+      <a href="products.html" class="button-primary">Explore the Collection</a>
+    </section>
 
-    <img src="images/phoenix-render.png" alt="Phoenix Fire Pit" style="width: 100%; max-width: 700px; border-radius: 12px; margin-bottom: 30px;" />
+    <section class="about-intro">
+      <h2>What We Stand For</h2>
+      <p>
+        Elysian Radiance was founded on the belief that fire is more than heat — it’s where stories are told, memories are forged, and legacies are passed. We design heirloom-quality fire features that ignite connection and elevate outdoor living.
+      </p>
+    </section>
 
-    <h2 style="color: #d4af37;">Introducing the Phoenix</h2>
-    <p style="max-width: 700px; margin: 0 auto 30px;">
-      Our flagship model blends timeless elegance with modern engineering. Built to last. Designed to inspire. Made to gather.
-    </p>
+    <section class="brand-values">
+      <div class="value-block">
+        <h3>🛠️ American Craftsmanship</h3>
+        <p>Every piece is fabricated in the U.S. by skilled artisans using only premium materials.</p>
+      </div>
+      <div class="value-block">
+        <h3>🎨 Iconic Aesthetic</h3>
+        <p>Our black + gold signature palette turns functional beauty into bold sculpture.</p>
+      </div>
+      <div class="value-block">
+        <h3>🕯️ Timeless Design</h3>
+        <p>Built for a lifetime of gathering — and then some.</p>
+      </div>
+    </section>
 
-    <a href="phoenix.html" style="background-color: #d4af37; color: #0e0e0e; padding: 14px 28px; text-decoration: none; border-radius: 5px; font-weight: bold;">Explore the Phoenix &rarr;</a>
+    <section class="model-preview">
+      <h2>Our Signature Fire Features</h2>
+      <div class="model-cards">
+        <div class="model-card">
+          <img src="images/phoenix-render.png" alt="Phoenix Fire Pit" />
+          <h3>Phoenix</h3>
+          <p>Founders Edition. Sculptural centerpiece. Circulating legacy.</p>
+        </div>
+        <div class="model-card">
+          <img src="images/Inferno 48.png" alt="Inferno Fire Pit" />
+          <h3>Inferno</h3>
+          <p>Grand scale. Maximum impact. Monolithic presence.</p>
+        </div>
+        <div class="model-card">
+          <img src="images/Aurora.png" alt="Aurora Fire Pit" />
+          <h3>Aurora</h3>
+          <p>Refined minimalism. Perfect for intimate luxury spaces.</p>
+        </div>
+      </div>
+      <a href="products.html" class="button-secondary">View All Fire Features</a>
+    </section>
+
+    <section class="cta">
+      <h2>Join the Founders Waitlist</h2>
+      <p>Be the first to experience our signature models and limited releases.</p>
+      <a href="https://forms.gle/747hXETjK8ajqb8x9" target="_blank" class="button-primary">Join the Waitlist</a>
+    </section>
   </main>
 
-  <footer style="text-align: center; margin-top: 60px; font-size: 0.9rem; color: #888;">
+  <footer class="site-footer">
     <p>&copy; 2025 Elysian Radiance, LLC. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
