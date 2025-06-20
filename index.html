@@ -2,41 +2,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elysian Radiance | Luxury Fire Features</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elysian Radiance | Luxury Fire Features</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: url('images/Hero_bg.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #ddd;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+        }
+
+        nav a {
+            color: #d4af37;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            padding: 0 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            margin-top: 30px;
+            background-color: #d4af37;
+            color: #000;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="phoenix.html">Founders Edition</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="phoenix.html">Founders Edition</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-  <header class="hero">
-    <div class="hero-content">
-      <img src="images/logo.png" alt="Elysian Radiance Logo" class="logo" />
-      <h1 class="hero-title">Elysian Radiance</h1>
-      <p class="hero-subtitle">
-        Luxury fire features inspired by legacy, craftsmanship, and the quiet moments around a flame.
-        Wood or propane. Indoors or out. Always Elysian.
-      </p>
-      <a href="phoenix.html" class="cta-button">Explore the Phoenix</a>
-    </div>
-  </header>
-
-  <main class="main-content">
-    <section>
-      <h2>Introducing the Phoenix</h2>
-      <p>Our flagship model blends art, engineering, and timeless warmth. Precision-crafted for those who value quality and connection.</p>
+    <section class="hero">
+        <img src="images/logo.png" alt="Elysian Radiance Logo" />
+        <h1>Elysian Radiance</h1>
+        <p>Luxury fire features forged from legacy. Crafted to illuminate connection, calm, and conversation. Indoors or out — wood or propane — always Elysian.</p>
+        <a class="cta-button" href="phoenix.html">Explore the Collection</a>
     </section>
-    <section>
-      <h2>Legacy in Design</h2>
-      <p>Every Elysian fire pit begins with heritage—formed in steel, finished by hand, and built to last for generations.</p>
-    </section>
-  </main>
 </body>
 </html>
