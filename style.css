@@ -1,112 +1,88 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #f5f5f5;
-  background-color: #111;
   margin: 0;
   padding: 0;
+  background-color: #121212;
+  color: #f5f5f5;
 }
 
-header.hero {
-  background-color: #000;
-  padding: 4rem 2rem;
+.hero {
+  background: url('images/hero_bg.png') center/cover no-repeat;
   text-align: center;
+  padding: 6rem 1rem 4rem;
 }
 
 .hero-title {
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  margin-bottom: 0.5rem;
-  color: #bfa14b;
+  font-size: 3rem;
+  margin: 0;
+  color: #d4af37;
 }
 
 .hero-subtitle {
-  font-size: 22px;
-  font-weight: 400;
-  max-width: 800px;
-  margin: 1rem auto 0 auto;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #cccccc;
 }
 
 .main-content {
-  max-width: 1100px;
+  padding: 2rem 1rem;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 1rem 4rem 1rem;
 }
 
 h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
   margin-top: 3rem;
-  margin-bottom: 1rem;
-  color: #bfa14b;
+  color: #fff;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-p, li {
-  font-size: 18px;
+  color: #d4af37;
 }
 
 ul {
-  padding-left: 1.5rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
 }
 
 .model {
-  margin-bottom: 2rem;
-  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 .model-img {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   height: auto;
   display: block;
-  margin: 0 auto 1rem auto;
-  border-radius: 12px;
+  margin: 1rem auto;
+  border-radius: 8px;
 }
 
 .cta-button {
   display: inline-block;
-  background-color: #bfa14b;
-  color: #111;
-  padding: 12px 24px;
-  border-radius: 30px;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d4af37;
+  color: #121212;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 1rem;
-  transition: background-color 0.3s;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #a78b3a;
+  background-color: #e6c26b;
 }
 
-footer.footer {
+.footer {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #000;
+  background-color: #1e1e1e;
+  font-size: 0.9rem;
   color: #888;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 36px;
-  }
-  .hero-subtitle {
-    font-size: 18px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 20px;
-  }
 }
